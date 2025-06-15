@@ -58,8 +58,6 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	// ...
 } 
 
-
-
 void UGrabber::Grab()
 {
 	UPhysicsHandleComponent* PhysicsHandle = GetPhysicsHandle();
